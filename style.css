@@ -1,0 +1,162 @@
+:root {
+	--blue: rgba(4, 52, 92, 1);;
+  	--light-blue: rgba(36, 123, 160, 1);
+  	--grey: rgba(53, 52, 52, 1);
+  	--light-grey: rgba(226, 226, 226, 1);
+  	--accent: rgba(123, 201, 80, 1);
+}
+
+body {
+	font-family: Muli;
+}
+
+.nav-wrapper {
+	background-color: var(--blue);
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-wrapper {
+    padding: 0 30px;
+  }
+}
+
+.brand-logo {
+	font-size: 1.65em !important;
+}
+
+.right li a, .sidenav li a {
+	font-size: 1.15em !important;
+}
+
+.sidenav {
+	padding-top: 20px;
+}
+
+.landing-1 {
+	background: url('landing1.jpg');
+	background-attachment: fixed;
+	width: 100%;
+	height: calc(75vh - 56px);
+	background-position: top;
+	background-size: cover;
+	position: absolute;
+}
+
+.landing-2 {
+	background: url('landing2.jpg');
+	background-attachment: fixed;
+	width: 100%;
+	height: calc(75vh - 56px);
+	background-position: top;
+	background-size: cover;
+	position: absolute;
+}
+
+.landing-3 {
+	background: url('landing3.jpeg');
+	background-attachment: fixed;
+	width: 100%;
+	height: calc(75vh - 56px);
+	background-position: top;
+	background-size: cover;
+	position: absolute;
+}
+
+.landing-4 {
+	background: url('landing4.jpeg');
+	background-attachment: fixed;
+	width: 100%;
+	height: calc(75vh - 56px);
+	background-position: top;
+	background-size: cover;
+	position: absolute;
+}
+
+.whitespace {
+	height: calc(75vh - 56px);
+}
+
+.heading {
+	text-align: center;
+	font-size: 3em;
+	color: var(--light-blue);
+	padding: 10px 8% 40px 8%;
+}
+
+.section-text {
+	padding: 0px 8% 20px 8%;
+	text-align: justify;
+	color: var(--grey);
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.accent {
+	color: var(--accent);
+}
+
+.pic {
+	text-align: center;
+	margin-top:50px;
+}
+
+.pic img {
+	width: 85%;
+}
+
+footer {
+	border-top-style: dotted;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-width: 1px; 
+}
+
+.importance-list {
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+.last-para {
+	margin-bottom: 70px;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+	position: relative;
+	opacity: 1;
+}
+
+.answers {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+label {
+	font-size: 15px;
+	color: black;
+}
+
+.select-container {
+	width: 100vw;
+    max-width: 500px;
+}
+
+textarea {
+	height: 100px;
+	width: 100vw;
+	max-width: 800px;
+}
+
+.buttons {
+	margin-top: 35px;
+	padding-bottom: 15px;
+}
+
+.reset-button {
+	margin-right: 20px;
+}
+
+.btn {
+	background-color: var(--blue) !important;
+}
