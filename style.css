@@ -113,6 +113,11 @@ footer {
 	border-top-width: 1px; 
 }
 
+#footer {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 .importance-list {
 	list-style-type: none;
 	margin-bottom: 15px;
@@ -138,13 +143,13 @@ label {
 }
 
 .select-container {
-	width: 100vw;
+	width: 80vw;
     max-width: 500px;
 }
 
 textarea {
 	height: 100px;
-	width: 100vw;
+	width: 80vw;
 	max-width: 800px;
 }
 
@@ -159,4 +164,55 @@ textarea {
 
 .btn {
 	background-color: var(--blue) !important;
+}
+
+.image-row {
+	width: 100%;
+	text-align: center;
+}
+
+#img1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 90%;
+	max-width: 610px;
+}
+
+#img2 {
+	padding-left: 40px;
+	height: 220px;
+}
+
+#img2-small {
+	width: 40%;
+}
+
+#img3 {
+	width: 350px;
+	padding-right: 40px;
+	padding-top: 15px;
+}
+
+#img3-small {
+	width: 85%;
+}
+
+#img4 {
+	width: 240px;
+	padding-right: 30px;
+	padding-top: 0px;
+}
+
+#img4-small {
+	width: 80%;
+}
+
+#img5 {
+	width: 300px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#img5-small {
+	width: 80%;
 }
